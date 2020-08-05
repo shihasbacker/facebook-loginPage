@@ -48,22 +48,23 @@
                         <form action="" id="input-padding">
                         <input name="fname" class="input-box-small" type="text" placeholder="First name">
                         <input name="sname" class="input-box-small" type="text" placeholder="Surename"><br><br>
-                        <input class="input-box-big" type="email" placeholder="Mobile number or email address"><br><br>
-                        <input class="input-box-big" type="password" placeholder="New password"><br><br>
+                        <input name="emailAddress" class="input-box-big" type="email" placeholder="Mobile number or email address"><br><br>
+                        <input name="password" class="input-box-big" type="password" placeholder="New password"><br><br>
                         </form>
                     </div>
+                        <form action="" id="side-heading">
                         <label class="side-heading">Birthday</label><br>
-                        <select name="" id="">
-                            <option value="">day</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
+                        <select name="day" id="">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
                         </select>
-                        <select name="" id="">
+                        <select name="" id="" name="month">
                             <option value="">month</option>
                             <option value="">01</option>
                             <option value="">02</option>
                         </select>
-                        <select name="" id="">
+                        <select name="" id="" name="year">
                             <option value="">year</option>
                             <option value="">1999</option>
                             <option value="">1998</option>
@@ -75,15 +76,15 @@
                         <label class="small-agreement">By clicking Sign Up, you agree to our Terms, Data Policy and <br> Cookie Policy. You may receive SMS notifications from us and <br> can opt out at any time</label><br>
                         <br>
                         <button class="btn" id="btn-click">Sign Up</button>
+                        </form>
                 </div>
 
             </div>
         </div>
         <div class="footer">
-
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <script src="js/fb.js"></script>
 </body>
